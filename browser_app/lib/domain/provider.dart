@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 
-import 'main.dart';
+import '../presentation/pages/my_home_page.dart';
 
 class TitleProvider with ChangeNotifier {
   bool canGoBackBool = false;
@@ -29,7 +28,6 @@ class TitleProvider with ChangeNotifier {
 
   canGoForward() {
     controller.canGoForward().then((value) {
-      print("go back - " + value.toString());
       return canGoForwardBool = value;
     });
     notifyListeners();
