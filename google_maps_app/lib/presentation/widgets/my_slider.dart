@@ -6,6 +6,8 @@ import '../pages/my_home_page.dart';
 double _value = 14;
 
 class MySlider extends StatefulWidget {
+  const MySlider({super.key});
+
   @override
   State<MySlider> createState() => _MySliderState();
 }

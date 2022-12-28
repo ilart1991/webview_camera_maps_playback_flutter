@@ -3,6 +3,8 @@ import 'package:google_maps_app/presentation/pages/my_home_page.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class Arrows extends StatefulWidget {
+  const Arrows({super.key});
+
   @override
   State<Arrows> createState() => _ArrowsState();
 }

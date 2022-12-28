@@ -57,7 +57,7 @@ class _MySliderState extends State<MySlider> {
                           currentPosition = value;
                           controller.position.then((value) {
                             value = Duration(seconds: currentPosition!.round());
-                            controller.seekTo(value!);
+                            controller.seekTo(value);
                           });
                         });
                       },

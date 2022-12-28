@@ -19,7 +19,6 @@ class TitleProvider with ChangeNotifier {
 
   canGoBack() {
     controller.canGoBack().then((value) {
-      print("go back - " + value.toString());
       return canGoBackBool = value;
     });
     notifyListeners();

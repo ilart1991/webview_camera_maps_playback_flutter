@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: Column(
           children: [
-            TopBar(),
+            const TopBar(),
             Expanded(child: WebViewWidget(controller: controller)),
           ],
         ));

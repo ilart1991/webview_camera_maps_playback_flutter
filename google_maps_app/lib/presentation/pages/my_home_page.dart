@@ -38,8 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
               mapController.complete(controller);
             },
           ),
-          Arrows(),
-          MySlider(),
+          const Arrows(),
+          const MySlider(),
         ]),
       ),
       floatingActionButtonLocation:
